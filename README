@@ -1,0 +1,23 @@
+An BotVis OpenGL-based renderer for occupancy grids
+
+This software is constructed according to the Pods software policies and
+templates.  The policies and templates can be found at:
+
+  http://sourceforge.net/projects/pods
+
+====
+
+Name:         gridmap-renderer
+Maintainers:  Matthew Walter
+Summary:      FILL-ME-IN
+Description:
+  FILL-ME-IN
+
+Requirements:
+  libbot2 (https://github.com/ripl-ttic/libbot2)
+  lcm
+  gridmap-lcmtypes (https://github.com/ripl-ttic/gridmap-lcmtypes)
+  obstacle-detector-lcmtypes (https://github.com/ripl-ttic/obstacle-detector-lcmtypes)
+
+
+License:      FILL-ME-IN
