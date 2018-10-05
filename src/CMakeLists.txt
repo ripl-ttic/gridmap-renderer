@@ -5,7 +5,7 @@ add_library(gridmap-renderer SHARED
 
 target_link_libraries(gridmap-renderer ${OPENGL_LIBRARIES})
 
-set(REQUIRED_LIBS bot2-vis lcmtypes_obstacle-detector lcmtypes_gridmap)
+set(REQUIRED_LIBS bot2-vis gridmap-utils lcmtypes_obstacle-detector lcmtypes_gridmap)
 
 pods_use_pkg_config_packages(gridmap-renderer ${REQUIRED_LIBS})
 

@@ -16,6 +16,7 @@ Description:
 Requirements:
   libbot2 (https://github.com/ripl-ttic/libbot2)
   lcm
+  gridmap-utils (https://github.com/ripl-ttic/gridmap-utils)
   gridmap-lcmtypes (https://github.com/ripl-ttic/gridmap-lcmtypes)
   obstacle-detector-lcmtypes (https://github.com/ripl-ttic/obstacle-detector-lcmtypes)
 
