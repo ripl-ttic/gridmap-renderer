@@ -1,7 +1,7 @@
 add_definitions(-std=gnu99)
 
 add_library(gridmap-renderer SHARED
-            renderer_gridmap.c)
+            renderer_gridmap.c tile_set.c)
 
 target_link_libraries(gridmap-renderer ${OPENGL_LIBRARIES})
 
