@@ -9,7 +9,7 @@
 extern "C" {
 #endif
 
-void setup_renderer_gridmap (BotViewer *viewer, int priority, lcm_t *_lcm, BotParam *param, );
+void setup_renderer_gridmap (BotViewer *viewer, int priority, lcm_t *_lcm, BotParam *param);
 
 #ifdef __cplusplus
 }
