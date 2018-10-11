@@ -117,7 +117,7 @@ on_map_rects (const lcm_recv_buf_t * rbuf, const char * channel,
 
 static void
 on_gridmap_tile(const lcm_recv_buf_t * rbuf, const char * channel,
-                const ripl_gridmap_tile_t * tile, void * user)
+                const gmlcm_gridmap_tile_t * tile, void * user)
 {
     RendererGridMap *self = (RendererGridMap*) user;
 
@@ -437,7 +437,7 @@ BotRenderer *renderer_gridmap_new(BotViewer *viewer, lcm_t *_lcm, BotParam * _pa
 
     obs_obstacle_list_t_subscribe (self->lcm, "OBSTACLES", on_obstacles, self);
     obs_rect_list_t_subscribe (self->lcm, "MAP_SERVER_RECTS", on_map_rects, self);
-    ripl_gridmap_tile_t_subscribe(self->lcm, "OBSTACLE_MAP", on_gridmap_tile, self);
+    gmlcm_gridmap_tile_t_subscribe(self->lcm, "OBSTACLE_MAP", on_gridmap_tile, self);
 
     return renderer;
 }
